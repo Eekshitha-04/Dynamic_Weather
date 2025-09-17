@@ -112,3 +112,60 @@ footer {
     padding: 1rem 2rem; 
   }
 }
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 10px;
+}
+.search-section input {
+  padding: 0.6rem;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+}
+.search-section button {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #ffcc00;
+  color: #000;
+  font-weight: bold;
+}
+
+.current-weather {
+  text-align: center;
+  margin: 2rem auto;
+}
+.weather-card {
+  background: rgba(255,255,255,0.2);
+  border-radius: 12px;
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.weather-card h3 {
+  font-size: 2rem;
+}
+.weather-card p {
+  margin: 0.5rem 0;
+}
+
+.forecast {
+  padding: 2rem;
+  text-align: center;
+}
+.forecast-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.forecast-card {
+  background: rgba(255,255,255,0.2);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
